@@ -142,7 +142,7 @@ export default function CyberPolygonLanding() {
                 onClick={() => scrollToSection("scope")}
                 className="block w-full text-left px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-700 rounded-lg transition-colors"
               >
-                Scopul
+                   Scope
               </button>
               <button
                 onClick={() => scrollToSection("features")}
@@ -154,7 +154,7 @@ export default function CyberPolygonLanding() {
                 onClick={() => scrollToSection("objectives")}
                 className="block w-full text-left px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-700 rounded-lg transition-colors"
               >
-                Obiective
+                Objectives
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
@@ -539,7 +539,7 @@ export default function CyberPolygonLanding() {
           <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-8 lg:p-16 text-white">
             <div className="max-w-4xl mx-auto">
               <h3 className="text-3xl lg:text-4xl font-bold mb-12 text-center">
-                Beneficii Măsurabile
+            Measurable Benefits
               </h3>
               <div className="grid md:grid-cols-2 gap-6">
                 {benefits.map((benefit, index) => (

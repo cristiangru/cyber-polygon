@@ -213,11 +213,11 @@ export default function CyberPolygonLanding() {
 
         {/* Hero Content */}
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto pt-20">
-          <div className="inline-block mb-6 px-6 py-2 bg-blue-500/30 backdrop-blur-sm rounded-full border border-blue-400/50">
+          {/* <div className="inline-block mb-6 px-6 py-2 bg-blue-500/30 backdrop-blur-sm rounded-full border border-blue-400/50">
             <span className="text-blue-100 font-medium">
               🛡️ Cyber Range Platform{" "}
             </span>
-          </div>
+          </div> */}
 
           <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold text-white mb-8 leading-tight">
             Cyber Polygon
@@ -248,7 +248,7 @@ export default function CyberPolygonLanding() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
+          {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl lg:text-5xl font-bold text-white mb-2">
@@ -257,7 +257,7 @@ export default function CyberPolygonLanding() {
                 <div className="text-blue-200 font-medium">{stat.label}</div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* Scroll Indicator */}
@@ -419,15 +419,15 @@ export default function CyberPolygonLanding() {
               </div>
 
               {/* Floating Stats */}
-              <div className="absolute -top-6 -right-6 bg-white rounded-xl shadow-xl p-4 border border-blue-100">
+              {/* <div className="absolute -top-6 -right-6 bg-white rounded-xl shadow-xl p-4 border border-blue-100">
                 <div className="text-3xl font-bold text-blue-600">360°</div>
                 <div className="text-sm text-gray-600">Protect</div>
-              </div>
-
+              </div> */}
+{/* 
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 border border-blue-100">
                 <div className="text-3xl font-bold text-blue-600">AI</div>
                 <div className="text-sm text-gray-600">Powered</div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -823,20 +823,20 @@ export default function CyberPolygonLanding() {
       {/* Contact Section */}
       <section
       id="contact"
-      className="py-24 lg:py-32 bg-gradient-to-b from-blue-50/30 to-white"
+      className=" lg:py-32 bg-gradient-to-b from-blue-50/30 to-white"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <div className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold mb-4">
+        {/* <div className="text-center mb-16"> */}
+          {/* <div className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold mb-4">
             Contact
-          </div>
+          </div> */}
           {/* <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Contactează-ne
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Pentru întrebări despre proiect sau colaborări
           </p> */}
-        </div>
+        {/* </div> */}
 
         {/* Varianta 1: 2 căsuțe alăturate */}
         {/* <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto"> */}
@@ -976,9 +976,9 @@ export default function CyberPolygonLanding() {
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 className="text-3xl lg:text-5xl font-bold mb-6">
+      {/* <h2 className="text-3xl lg:text-5xl font-bold mb-6">
           NORTH ATLANTIC TREATY ORGANIZATION
-        </h2> 
+        </h2>  */}
         {/* <p className="text-xl text-blue-200 mb-12 max-w-3xl mx-auto">
           Alătură-te organizațiilor care au ales excelența în securitatea
           cibernetică. Începe transformarea digitală în siguranță cu Cyber
@@ -1109,7 +1109,7 @@ export default function CyberPolygonLanding() {
               target="_blank"
               className="text-gray-400 hover:text-white transition-colors"
             >
-            NATO
+            NATO Science for Peace and Security
             </a>
           </li> 
           {/* <li>
